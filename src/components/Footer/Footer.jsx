@@ -1,10 +1,16 @@
+import { FooterContainer, FooterElements } from "./Footer.style";
 
 const Footer = () => {
-    return (
-        <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, et possimus? Necessitatibus alias fugiat reprehenderit soluta nam cumque itaque iste, suscipit earum cupiditate. Enim expedita id quis qui ex dignissimos?
-        </div>
-    )
-}
+  return (
+    <FooterContainer>
+      <FooterElements>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem et velit
+        esse vitae, blanditiis ducimus minima perspiciatis quia id accusamus
+        laboriosam voluptatem. Tempore delectus pariatur qui officiis corporis
+        inventore quia!
+      </FooterElements>
+    </FooterContainer>
+  );
+};
 
-export default Footer
+export default Footer;
