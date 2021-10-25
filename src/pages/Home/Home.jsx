@@ -1,11 +1,12 @@
 import { ContainerHome } from './Home.style'
-import { CarouselC, SectionOne } from '../../components'
+import { CarouselC, SectionOne, Projects } from '../../components'
 
 const Home = () => {
     return (
         <ContainerHome>
             <CarouselC/>
             <SectionOne/>
+            <Projects/>
         </ContainerHome>
     )
 }
